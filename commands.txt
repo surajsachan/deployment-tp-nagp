@@ -1,0 +1,9 @@
+docker build -t surajsachansudo/discovery-server:latest .
+docker build -t surajsachansudo/api-gateway:latest .
+docker build -t surajsachansudo/hotel-booking:latest .
+docker build -t surajsachansudo/flight-booking:latest .
+docker build -t surajsachansudo/user-service:latest .
+docker build -t surajsachansudo/payment-service:latest .
+
+Some links:
+Eureka UI: http://localhost:8761/
